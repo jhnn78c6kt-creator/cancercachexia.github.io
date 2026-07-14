@@ -243,11 +243,11 @@
         </div>
         <div class="form-group">
           <label>GPS score</label>
-          <span class="hint">0=albium ≥35 and CRP≤10；1=其他</span>
+          <span class="hint">0=albium ≥35 and CRP≤10；1=albium ≥35 or CRP≤10;2=Alb <35 g/L and CRP >10 mg/L</span>
           <select id="gps">
             <option value="0" selected>0 - Normal (Alb ≥35 g/L & CRP ≤10 mg/L)</option>
             <option value="1">1 - One abnormal value</option>
-            <option value="2">2 - Alb <35 g/L & CRP >10 mg/L</option>
+            <option value="2">2 - Alb <35 g/L and CRP >10 mg/L</option>
           </select>
         </div>
         <div class="form-group">
