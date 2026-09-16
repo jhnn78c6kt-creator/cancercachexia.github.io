@@ -257,7 +257,8 @@
         </div>
         <div class="form-group">
           <label>PNI Prognostic Nutritional Index (PNI)</label>
-          <span class="hint">PNI = 10×albium + 0.005×lymphocyte count</span>
+          <span class="hint">PNI =Albumin (g/L) + 5 × Lymphocyte count (10⁹/L) <img width="432" height="10" alt="image" src="https://github.com/user-attachments/assets/386da206-4699-4b42-aee2-8cb965c44561" />
+</span>
           <input type="number" id="pni" value="45" min="20" max="80" step="0.1">
         </div>
       </div>
@@ -318,11 +319,11 @@
         </div>
         <div class="info-pill">
           <div class="num">AUC</div>
-          <div class="txt">0.859<br>验证集</div>
+          <div class="txt">0.912<br>验证集</div>
         </div>
         <div class="info-pill">
-          <div class="num">81%</div>
-          <div class="txt">模型<br>准确率</div>
+          <div class="num">0.696</div>
+          <div class="txt">模型<br>F1</div>
         </div>
       </div>
     </div>
