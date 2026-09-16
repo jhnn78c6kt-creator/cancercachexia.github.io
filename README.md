@@ -257,7 +257,7 @@
         </div>
         <div class="form-group">
           <label>PNI Prognostic Nutritional Index (PNI)</label>
-          <span class="hint">PNI =Albumin (g/L) + 5 × Lymphocyte count (10⁹/L) <img width="432" height="10" alt="image" src="https://github.com/user-attachments/assets/386da206-4699-4b42-aee2-8cb965c44561" />
+          <span class="hint">PNI =Albumin (g/L) + 5 × Lymphocyte count (10⁹/L)</span>
 </span>
           <input type="number" id="pni" value="45" min="20" max="80" step="0.1">
         </div>
